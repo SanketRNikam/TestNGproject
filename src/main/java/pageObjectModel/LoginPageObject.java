@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 public class LoginPageObject {//we keep locators(xpath and others) of all login page object(we keep page vise locaters at one place).
 	//driver.findElement(By.xpath("")).sendkeys();(here keep locators,constructor,methods)
 	
+	//hii my git
+	
 	//this driver doesnot have scope
 	public WebDriver driver;
 	//we have achieved encapsulation here.
@@ -18,7 +20,6 @@ public class LoginPageObject {//we keep locators(xpath and others) of all login 
 
 	private By LoginButton = By.xpath("//input[@id='Login']");//this is for Login.private accessible within class only.
 	private By tryforfree = By.xpath("//a[@id='signup_link']");
-	
 	
 //this is constructor
 	public LoginPageObject(WebDriver driver2) {//driver2 from LoginPageObject.
