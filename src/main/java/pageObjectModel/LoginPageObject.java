@@ -25,6 +25,7 @@ public class LoginPageObject {//we keep locators(xpath and others) of all login 
 	public LoginPageObject(WebDriver driver2) {//driver2 from LoginPageObject.
 		
 		this.driver=driver2;
+		
 	}
 	
 		
